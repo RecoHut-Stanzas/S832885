@@ -62,3 +62,55 @@ $ python simulator_multi_process.py
 $ cd algsTS
 $ python simulator_multi_process.py
 ``` 
+
+## Project structure
+```
+.
+├── [ 27K]  algs
+│   ├── [2.7K]  clinucb.py
+│   ├── [ 970]  config.py
+│   ├── [3.3K]  hcb.py
+│   ├── [ 865]  item.py
+│   ├── [ 944]  logger.py
+│   ├── [2.1K]  naive_linucb.py
+│   ├── [3.9K]  phcb.py
+│   ├── [7.0K]  simulator_multi_process.py
+│   └── [ 900]  user.py
+├── [ 24K]  algsE
+│   ├── [1.7K]  ceg.py
+│   ├── [ 954]  config.py
+│   ├── [2.8K]  hcb.py
+│   ├── [ 865]  item.py
+│   ├── [ 944]  logger.py
+│   ├── [1.3K]  naive_eg.py
+│   ├── [2.7K]  phcb.py
+│   ├── [6.9K]  simulator_multi_process.py
+│   └── [1.6K]  user.py
+├── [ 26K]  algsTS
+│   ├── [1.0K]  config.py
+│   ├── [2.4K]  cts.py
+│   ├── [3.0K]  hcb.py
+│   ├── [ 865]  item.py
+│   ├── [ 944]  logger.py
+│   ├── [1.9K]  naive_ts.py
+│   ├── [3.7K]  phcb.py
+│   ├── [6.9K]  simulator_multi_process.py
+│   └── [1.6K]  user.py
+├── [4.3K]  data
+│   └── [ 257]  data.txt
+├── [427K]  images
+│   ├── [118K]  hcb_algo.png
+│   ├── [ 63K]  hcb_flow.png
+│   ├── [ 79K]  P422159_process_flow.svg
+│   ├── [114K]  phcb_algo.png
+│   └── [ 49K]  phcb_flow.png
+├── [4.0K]  logger
+│   └── [  46]  testfile.txt
+├── [255K]  nbs
+│   └── [251K]  P422159_Entire_item_space_exploration_with_Contextual_bandits_on_MIND_news_dataset.ipynb
+├── [3.3K]  README.md
+└── [9.8K]  reports
+    └── [5.8K]  S832885_report.ipynb
+
+ 783K used in 8 directories, 37 files
+```
